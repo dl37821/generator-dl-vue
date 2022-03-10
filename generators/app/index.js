@@ -25,8 +25,7 @@ module.exports = class extends Generator{
       'src/App.vue',
       'src/main.js',
       'src/assets/logo.png',
-      'src/components/HelloWorld.vue',
-      '.gitignore',
+      'src/components/HelloWorld.vue'
     ]
 
     templates.forEach(item => {
