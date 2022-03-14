@@ -1,4 +1,4 @@
-# <%= htmlWebpackPlugin.options.title %>
+# <%= name %>
 
 ## Project setup
 ```
@@ -15,3 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
