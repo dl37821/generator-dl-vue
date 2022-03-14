@@ -17,6 +17,7 @@ module.exports = class extends Generator{
 
   writing () {
     const templates = [
+      '.gitignore',
       'babel.config.js',
       'package.json',
       'README.md',
@@ -25,7 +26,7 @@ module.exports = class extends Generator{
       'src/App.vue',
       'src/main.js',
       'src/assets/logo.png',
-      'src/components/HelloWorld.vue'
+      'src/components/HelloWorld.vue',
     ]
 
     templates.forEach(item => {
