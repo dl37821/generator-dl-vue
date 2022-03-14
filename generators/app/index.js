@@ -17,7 +17,6 @@ module.exports = class extends Generator{
 
   writing () {
     const templates = [
-      '.gitignore',
       'babel.config.js',
       'package.json',
       'README.md',
